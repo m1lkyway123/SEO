@@ -1,0 +1,397 @@
+@media (max-width: 970px) {
+
+}
+
+
+@media (max-width: 920px) {
+  .arrase__content-text {
+    font-size: 40px;
+  }
+  .arrase__content-btn {
+    margin-bottom: 15px;
+  }
+
+  .um__text {
+    font-size: 38px;
+  }
+  .um__inner {
+    padding: 40px 35px 38px 70px;
+  }
+
+  .como {
+    padding: 55px 0 70px;
+  }
+  .como__img {
+    display: none;
+  }
+  .como__inner {
+    justify-content: center;
+  }
+  .como__content {
+    max-width: 600px;
+  }
+  .como__title {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 860px) {
+  .header__head {
+    font-size: 35px;
+  }
+
+  .sempre {
+    padding: 70px 0 80px;
+  }
+  .sempre__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sempre__img {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+  .sempre__title, .sempre__subtitle {
+    text-align: center;
+  }
+
+  .uniao__inner {
+    gap: 25px;
+    flex-direction: column-reverse;
+  }
+  .uniao__title {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .uniao__img {
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .crie__inner {
+    flex-direction: column-reverse;
+  }
+  .crie__content {
+    text-align: center;
+  }
+  .crie__image {
+    width: 35%;
+  }
+
+  .arrase__image {
+    display: none;
+  }
+  .arrase__content {
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .arrase__content-text {
+    padding: 40px 30px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .arrase__content-btn {
+    margin-left: 0;
+  }
+
+  .anos__img {
+    display: none;
+  }
+  .anos__content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contato-form__ns {
+    display: block;
+    margin-bottom: 0;
+  }
+  .contato-form__name {
+    margin-bottom: 21px;
+    max-width: 100%;
+  }
+}
+ 
+
+
+@media (max-width: 768px) {
+  .header__burger-btn {
+    display: block;
+  }
+  .header__menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $blue;
+    padding-top: 30vh;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .5s;
+    z-index: 4;
+    &-list {
+      display: block;
+    }
+    &-item {
+      a {
+        color: $white;
+        display: block;
+        font-size: 21px;
+        padding: 10px 0;
+        margin: 20px 0;
+      }
+    }
+    &-item + &-item {
+      margin-left: 0;
+    }
+  }
+
+  .header.open {
+    .header__menu {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+
+  .header {
+    &__text {
+      font-size: 40px;
+      line-height: 55px;
+    }
+  }
+
+  .header__menu-item--active a {
+    color: $black;
+  }
+
+  .como {
+    padding: 45px 0 60px;
+  }
+  .como__content {
+    max-width: 405px;
+  }
+  .como__title {
+    margin-bottom: 15px;
+  }
+  .como__text {
+    font-size: 15px;
+  }
+
+  .list__item {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+  .list__item-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .list__item-img {
+    width: 20%;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .um__inner {
+    padding: 40px 28px 38px;
+    gap: 24px;
+  }
+  .um__img {
+    width: 10%;
+  }
+  .um__text {
+    font-size: 27px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .sempre {
+    padding: 40px 0 65px;
+  }
+  .sempre__title {
+    margin-bottom: 5px;
+  }
+  .sempre__subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .sempre__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .sempre__text+.sempre__text {
+    margin-top: 15px;
+  }
+
+  .um {
+    padding-bottom: 88px;
+  }
+
+  .uniao {
+    padding-bottom: 47px;
+  }
+  .uniao__title {
+    margin-bottom: 10px;
+  }
+  .uniao__text {
+    font-size: 14px;
+  }
+
+  .servicos__content {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .servicos__title {
+    margin: 0 auto;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  .servicos__images {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .footer__wrapper {
+    padding: 20px 10px;
+  }
+  .footer__inner {
+    display: block;
+    text-align: center;
+    height: auto;
+  }
+  .footer__menu-list {
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 13px;
+  }
+  .footer__menu-item +.footer__menu-item {
+    margin-left: 15px;
+  }
+}
+
+
+
+@media (max-width: 460px) {
+  .um__text {
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .header__home {
+    margin-bottom: 95px;
+  }
+  .header__text {
+    font-size: 30px;
+    line-height: 50px;
+    margin: auto;
+    padding: 25vh 15px 0;
+  }
+
+  .crie {
+    margin-bottom: 75px;
+  }
+  .crie__content-title {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 5px;
+  }
+  .crie__content-subtitle {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .crie__content-text {
+    font-size: 13px;
+  }
+
+  .arrase {
+    margin-bottom: 75px;
+  }
+  .arrase__content-text {
+    padding: 30px 20px;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .arrase__content-btn {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .anos {
+    padding: 30px 0 40px;
+  }
+  .anos__content-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .anos__content-subtitle {
+    line-height: 15px;
+    margin-bottom: 20px;
+  }
+  .anos__content-text {
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .anos__content-btn {
+    width: 90%;
+    font-size: 13px;
+  }
+
+  .contato-home {
+    padding: 30px 0 40px;
+  }
+  .contato-home__title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+
+
+  .contato {
+    padding: 40px 0 65px;
+  }
+
+  .list {
+    padding-bottom: 60px;
+  }
+  .list__item  {
+    padding: 20px;
+  }
+  .list__item-text {
+    font-size: 14px;
+  }
+  .list__item+.list__item {
+    margin-top: 30px;
+  }
+
+  .ainda__inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ainda__title {
+    font-size: 20px;
+  }
+  .ainda__text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
